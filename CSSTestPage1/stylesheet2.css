@@ -1,0 +1,17 @@
+.everything
+{
+	width:960px;
+	margin:0 auto;
+}
+
+#HeaderLogin
+{
+	
+	position:relative;
+	background:#00868B;
+	height:6%;
+	padding-top:20px;
+	padding-left:100px;
+	margin:0 auto;
+
+}

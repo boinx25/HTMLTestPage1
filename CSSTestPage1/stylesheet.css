@@ -1,0 +1,155 @@
+.container
+{
+	width:960px;
+	margin:0 auto;
+}
+
+#header
+{
+	background: linear-gradient(to bottom right,#00BFFF,white);
+	height:250px;
+	position:relative;
+	margin:0 auto;
+}
+
+#logo
+{
+	
+	position:relative;
+	top:30px;
+	left:100px;
+}
+
+#logoText
+{
+	color:white;
+	font-family:Ubuntu Condensed;
+	font-style:italic;
+	font-weight:bold;
+	font-size:40px;
+	position:relative;
+	top:-150px;
+	left:200px;
+
+}
+
+#MenuBar
+{
+	background:linear-gradient(white,gray);
+	height:5%;
+	position:relative;
+	top:0px;
+	padding-top:20px;
+	padding-left: 50px;
+	word-spacing:130px;
+	margin:0 auto;
+}
+
+a.one:link
+{
+	/*Menu Bar*/
+	font-family:Arial;
+	font-weight:bold;
+	font-size:30px;
+	text-decoration:none;
+	
+}
+
+a.one:visited
+{
+	/*Menu Bar*/
+	color:gray;
+}
+
+a.two:link
+{	
+	/*Read More*/
+	text-decoration:none;
+}
+
+a.two:visited
+{
+	/*Read More*/
+	color:blue;
+}
+
+a:visited
+{
+	/*Floating Menu*/
+	color:black;
+}
+
+#Left
+{
+	width:60%;
+	float:left;
+	margin:0 auto;
+}
+
+#right
+{
+	width:30%;
+	float:right;
+	margin:0 auto;
+}
+
+h1
+{
+	color:#104E8B;
+}
+
+#SideMenu
+{
+	/*Floating Menu*/
+	background:#CDC8B1;
+	border:2px solid gray;
+	height:600px;
+	position:relative;
+	margin:0 auto;
+	padding-top:10px;
+	padding-left:40px;
+	color:#104E8B;
+
+
+}
+
+.button
+{
+	display:block;
+	height:50px;
+	width:200px;
+	background:radial-gradient(#9ACD32,white);
+	border: 2px solid black;
+	position:relative;
+	top:25px;
+
+	/*Button Title*/
+	color:black;
+	text-align:center;
+	font-weight:bold;
+	padding-top:15px;
+
+}
+
+a.button
+{
+	text-decoration:none;
+}
+
+#footer
+{
+   
+   clear:both;
+   height:50px;
+   margin:0 auto;   
+   background:#848484;
+   color:white;
+   padding-top:50px;
+   padding-left:50px;
+}
+
+p
+{
+	font-family:Purisa;
+	font-variant:small-caps:;
+}
